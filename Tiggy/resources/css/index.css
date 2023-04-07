@@ -1,0 +1,62 @@
+.navbar {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: black;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.banner {
+    background-color:cadetblue ;
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#big-tiggy {
+    width:300px;
+    height: 200px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.tiggy-section {
+    padding: 20px 50px
+}
+
+#tiggy {
+    color: cadetblue;
+    font-size: 100px;
+}
+
+#greets ul {
+    list-style: none;
+}
+
+.avatar {
+    background-image: url('../images/IMG_2410.JPG');
+    background-size: cover;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.bold {
+    font-weight: 900; 
+    }
+
+a.blue {
+    color: blue;
+}
