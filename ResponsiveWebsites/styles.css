@@ -1,0 +1,117 @@
+/* fonts
+font-family: 'Aboreto', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+
+.header {
+    padding: 5px;
+    background-color:bisque;
+    min-height: 4px;
+}
+
+.topnav {
+    text-align: right;
+    font-family:'Aboreto', cursive;
+    float: right;
+    margin: auto 0;
+
+}
+
+img {
+    height: 100px;
+}
+
+.motto {
+    font-family: ;
+    background-color: burlywood;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 70%;
+    border-radius: 10px;
+}
+/*splash*/
+
+.splash {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-image: url('/images/spash-image.jpeg') ;
+    background-size: cover;
+}
+
+/*products*/
+
+.heading {
+   text-align: center; 
+   position: absolute;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.product-image {
+    width: 200px;
+    height: auto;
+}
+
+/*Team Meeting*/
+
+.team {
+    display: flex;
+    background-color: paleturquoise;
+    align-items: center;
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.team img {
+    width: 200px;
+    height: auto;
+}
+
+.team-meet {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Aboreto', cursive;
+    font-weight: bolder;
+}
+
+footer {
+    background-color:bisque;
+}
+
+@media only screen and (max-width: 640px) {
+
+.products img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .topnav {
+    display: none;
+}
+
+    .team img { 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
